@@ -1,0 +1,200 @@
+<div class="background">
+  <div class="heart">💕</div>
+  <div class="heart">💕</div>
+  <div class="heart">💕</div>
+  <div class="heart">💕</div>
+  <div class="heart">💕</div>
+  <div class="heart">💕</div>
+</div>
+
+<!-- PAGE 1 -->
+<div id="passcode" class="page active">
+  <div class="center">
+    <h1>Happy Birthday</h1>
+
+    <p class="sub">Enter passcode to unlock your surprise</p>
+
+    <input id="code" type="password" placeholder="••••">
+    <button onclick="unlock()">Unlock</button>
+
+    <p class="sub">Hint: Your birthday (DDMM)</p>
+    <p id="err"></p>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div id="cake" class="page">
+  <nav>
+    <button onclick="go('passcode')">Back</button>
+    <button onclick="go('photos')">Next</button>
+  </nav>
+
+  <div class="center">
+
+    <div class="photo-slot">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/cake%20and%20flowers.jpeg" />
+    </div>
+
+    <h2 class="big-title">Happy Birthday Love 💖</h2>
+
+    <p>Are you excited to see what I prepared for you?</p>
+
+    <div class="buttons">
+      <button onclick="go('photos')">Yes 💕</button>
+      <button onclick="go('photos')">Duhh 😌</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- PAGE 3 -->
+<div id="photos" class="page">
+  <nav>
+    <button onclick="go('cake')">Back</button>
+    <button onclick="go('letter')">Next</button>
+  </nav>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%201.jpeg">
+      <p class="note">I don’t think you realize how calming your presence is 💕. You carry yourself with such quiet confidence and grace. I’m genuinely proud of the person you are becoming. There’s something about you that always feels like peace ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%2010.jpeg">
+      <p class="note">This moment feels so real and full of life ✨. I love how naturally you exist in your own energy. You don’t try too hard and it still shows 💖. It’s beautiful watching you just be you 💕.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%2011.jpeg">
+      <p class="note">You are genuinely so beautiful, inside and out 💖. Not just how you look, but how you exist in the world. I hope you see yourself the way others do sometimes. You deserve to always feel proud of yourself ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%2012.jpeg">
+      <p class="note">There’s something soft and unforgettable about this moment 💕. It feels like a version of you that deserves to be remembered. I’m proud of your growth, even the parts no one sees. You’re doing better than you think ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%2013.jpeg">
+      <p class="note">You don’t always see your own magic ✨. But it shows in everything you do without effort. I hope you never forget how enough you already are 💖. There’s something really special about you 💕.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%2014.jpeg">
+      <p class="note">You look so naturally radiant here 💖. It’s one of those moments that feels effortlessly beautiful. I hope you keep this version of confidence forever. You deserve to always feel this light ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%2015.jpeg">
+      <p class="note">This happiness is so pure 💕. It reminds me how real your joy can be. I love seeing you in your element like this. You deserve many more moments like this ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%202.jpeg">
+      <p class="note">There’s something very soft and peaceful here ✨. You look like you’re exactly where you’re meant to be. I hope life stays gentle with you in moments like this 💕. You deserve calm days like this always 💖.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%203.jpeg">
+      <p class="note">This stays in my heart 💖. You look so naturally free and unbothered here. I admire how you just exist without trying too hard. Never lose that part of you ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%204.jpeg">
+      <p class="note">You shine differently here 💕. Not louder, just softer and more real. I hope you always recognize your own light. It reaches people more than you think ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%205.jpeg">
+      <p class="note">This feels like a beautiful memory ✨. One of those moments that quietly stays with you. I hope you collect more days like this. You deserve soft happiness 💖.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%206.jpeg">
+      <p class="note">You look so warm and natural here 💕. There’s something very honest about this moment. I admire how effortlessly you show up as yourself. That’s rare ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%207.jpeg">
+      <p class="note">You look genuinely happy here 💖. And that kind of joy is everything. I hope you find more reasons to smile like this. You deserve it all ✨.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%208.jpeg">
+      <p class="note">This feels unforgettable ✨. Like a moment that quietly defines happiness. I hope you always remember this feeling. It suits you 💕.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/yvonnewainaina08-wq/lachelle.github/raw/main/lash%209.jpeg">
+      <p class="note">Forever cherished 💖. You look so peaceful and grounded here. I hope life keeps giving you moments like this. You deserve softness always 💕.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- PAGE 4 -->
+<div id="letter" class="page">
+  <nav>
+    <button onclick="go('photos')">Back</button>
+    <button onclick="go('song')">Next</button>
+  </nav>
+
+  <div class="box">
+
+    <h2 class="big-title">💌 A Letter For You</h2>
+
+    <div class="letter-text">
+
+      <p>
+        I’ve been reflecting on what I want to say to you today, and I have to admit, you are better with words than I am. Yet even though language isn’t always my strongest suit, I still want to try, because you deserve to hear these feelings fully. Though our time together may not have been long, meeting you has added something gentle and meaningful to my life. There is a calmness in the way you exist, a quiet grounding presence that doesn’t need effort to be felt. You carry a softness that makes others feel safe, even in silence. I hope you never underestimate that. I am proud of you, for who you are when no one is watching, and for how you continue growing even when life feels uncertain. You deserve love that feels safe, friendships that feel effortless, and days that leave you restored instead of drained.
+      </p>
+With love,<br>Yours ❤️
+      </p>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- PAGE 5 -->
+<div id="song" class="page">
+  <nav>
+    <button onclick="go('letter')">Back</button>
+    <button onclick="go('final')">Next</button>
+  </nav>
+
+  <div class="box">
+
+    <h2 class="big-title">Your Song</h2>
+
+    <iframe src="https://www.youtube.com/embed/OXKNU6yOjqY"></iframe>
+
+  </div>
+</div>
+
+<!-- PAGE 6 -->
+<div id="final" class="page">
+  <nav>
+    <button onclick="go('song')">Back</button>
+    <button onclick="go('passcode')">Home</button>
+  </nav>
+
+  <div class="box">
+
+    <div class="photo-slot">
+      <img src="https://raw.githubusercontent.com/yvonnewainaina08-wq/lachelle.github/57fc8c46c0045430190ef1126015117a1883a980/lash%2018.jpeg">
+    </div>
+
+    <h2 class="big-title final-title">You Mean So Much</h2>
+
+    <p>
+      I hope your year ahead is filled with peace, love, and beautiful memories.
+      You deserve a life that feels soft and meaningful.
+    </p>
+
+    <p>Happy Birthday ❤️</p>
+
+  </div>
+</div>
